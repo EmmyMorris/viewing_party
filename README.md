@@ -7,9 +7,6 @@ Viewing Party allows users to explore movies via The Movie Database API and crea
 
 [👀 Visit the app on Heroku](https://rocky-retreat-38535.herokuapp.com/)
 
-<!-- test coverage -->
-<!-- Travis CI badge -->
-
 ## Local Setup
 
 1. Fork and Clone the repo
@@ -51,6 +48,8 @@ API Consumption
 
 
 <img width="400" alt="Viewing-Party Test Coverage" src="https://user-images.githubusercontent.com/77904287/130531068-d5fbfbd1-3170-465f-9d4d-5ea6ca36605b.png">
+
+[![Build Status](https://app.travis-ci.com/EmmyMorris/viewing_party.svg?branch=main)](https://app.travis-ci.com/EmmyMorris/viewing_party)
 
 ## Versions
 
