@@ -47,6 +47,10 @@ API Consumption
 * Simplecov was used to track total test coverage.
 * To run our test suite, RSpec, enter `$ bundle exec rspec` in the terminal.
 * To see a coverage report enter `$ open coverage/index.html`
+- SimpleCov test coverage is at 100.00%:
+
+
+<img width="400" alt="Viewing-Party Test Coverage" src="https://user-images.githubusercontent.com/77904287/130531068-d5fbfbd1-3170-465f-9d4d-5ea6ca36605b.png">
 
 ## Versions
 
@@ -55,11 +59,6 @@ API Consumption
 - Rails 5.2.5
 
 <!-- screenshots of final app -->
-## Testing
-- SimpleCov test coverage is at 100.00%:
-
-
-<img width="400" alt="Viewing-Party Test Coverage" src="https://user-images.githubusercontent.com/77904287/130531068-d5fbfbd1-3170-465f-9d4d-5ea6ca36605b.png">
 
 ## Authors
 
