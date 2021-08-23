@@ -6,11 +6,3 @@ addons:
 script:
 - bundle exec rails db:{create,migrate} RAILS_ENV=test
 - bundle exec rspec
-deploy:
-  provider: heroku
-  api_key:
-    secure: x7KZ3S9mmX1Bi3dNXzkc45PSdQRzcZhKfbO57hM96rimksGQAZup/TfAtTWn7+z/AdYYoeCuBNvFYfM57b9IQQHvwYdpsjaqVnmMB7js+g0vWPKSjXVX3Co/aDBhYKE3OxdLUWwdBw1u076ATDgbrJtlUT/jrzc6+lWY/u0f5MYoXyjvPYDbMAigXytb6oDMVZlHwfoqMebhJPgbQNWSJBN6WI9ySPK9tqDJsX2DKtDPgiRJrqDJfKBgo+303m0lvMaue1Fmd/ygayx/wVJi4kai9WxFdDofGhjscdTMpGOoF5IabgmsMwAqcVPG31qnYS1XP/Ns6p/Yw6wIR/XmYKTLBklb2j+UxMeEjbBNioO2/9tM9XYXvtnqqYxz/xr5GdUi+iw6sS4H6b1nQaqrh1GRL0iItYkFVzrDIE7e5mNOQGENLvhGj20kRlIYTDarBCrT3MboG/4IujBsuvHz4brOrBDqVIfoNt1PysuH7wp+oUpxanhB/jkhHvJ345X90TvC4ZY5OGOhYr8tJI4hjSGuX3m5Ea/HQTNoS1VbzB14nxwLLxYXL64g21xsVX2X9ogp8poM46d71UFnSz1TXnHYXvFmUEo+Ak/yp7WKe9Q4GFxXBSKUI5iKj3bf4PqxzeriUzxwM245uzhkk70e54k+L/6fxeEgpkDL+vBDqHQ=
-  app: viewing-party
-  on:
-    all_branches: true
-  run: rails db:migrate
